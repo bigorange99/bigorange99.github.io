@@ -26,11 +26,13 @@
 <meta property="og:site_name" content="大橙子">
 <meta property="og:description" content="DataX-Web部署教程">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://blog.660066.xyz/2023/02/17/DataX-Web%E9%83%A8%E7%BD%B2%E6%95%99%E7%A8%8B/image-20230217143353399.png">
 <meta property="article:published_time" content="2023-02-17T02:43:55.000Z">
-<meta property="article:modified_time" content="2023-02-17T02:47:31.468Z">
+<meta property="article:modified_time" content="2023-02-17T06:43:03.822Z">
 <meta property="article:author" content="BigOrange">
 <meta property="article:tag" content="DataX-Web">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://blog.660066.xyz/2023/02/17/DataX-Web%E9%83%A8%E7%BD%B2%E6%95%99%E7%A8%8B/image-20230217143353399.png">
 
 
 <link rel="canonical" href="https://blog.660066.xyz/2023/02/17/DataX-Web%E9%83%A8%E7%BD%B2%E6%95%99%E7%A8%8B/">
@@ -112,7 +114,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#DataX-Web%E9%83%A8%E7%BD%B2%E6%95%99%E7%A8%8B"><span class="nav-number">1.</span> <span class="nav-text">DataX-Web部署教程</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%A6%96%E5%85%88%E8%A7%A3%E5%8E%8B%E6%96%87%E4%BB%B6%E5%88%B0%E5%AE%89%E8%A3%85%E7%9B%AE%E5%BD%95"><span class="nav-number">1.0.1.</span> <span class="nav-text">首先解压文件到安装目录</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%89%A7%E8%A1%8C%E5%AE%89%E8%A3%85%E5%91%BD%E4%BB%A4"><span class="nav-number">1.0.2.</span> <span class="nav-text">执行安装命令</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BF%87%E7%A8%8B"><span class="nav-number">1.0.3.</span> <span class="nav-text">过程</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%95%B0%E6%8D%AE%E5%BA%93%E5%88%9D%E5%A7%8B%E5%8C%96%EF%BC%88%E4%B8%A4%E7%A7%8D%E6%83%85%E5%86%B5%EF%BC%89%EF%BC%9A"><span class="nav-number">1.0.3.1.</span> <span class="nav-text">数据库初始化（两种情况）：</span></a></li></ol></li></ol></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#DataX-Web%E9%83%A8%E7%BD%B2%E6%95%99%E7%A8%8B"><span class="nav-number">1.</span> <span class="nav-text">DataX-Web部署教程</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E9%A6%96%E5%85%88%E8%A7%A3%E5%8E%8B%E6%96%87%E4%BB%B6%E5%88%B0%E5%AE%89%E8%A3%85%E7%9B%AE%E5%BD%95"><span class="nav-number">1.1.</span> <span class="nav-text">一、首先解压文件到安装目录</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C%E3%80%81%E6%89%A7%E8%A1%8C%E5%AE%89%E8%A3%85%E5%91%BD%E4%BB%A4"><span class="nav-number">1.2.</span> <span class="nav-text">二、执行安装命令</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%89%E3%80%81%E5%AE%89%E8%A3%85%E8%BF%87%E7%A8%8B"><span class="nav-number">1.3.</span> <span class="nav-text">三、安装过程</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%95%B0%E6%8D%AE%E5%BA%93%E5%88%9D%E5%A7%8B%E5%8C%96%EF%BC%88%E4%B8%A4%E7%A7%8D%E6%83%85%E5%86%B5%EF%BC%89%EF%BC%9A"><span class="nav-number">1.3.0.1.</span> <span class="nav-text">数据库初始化（两种情况）：</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%9B%E3%80%81%E8%AE%BF%E9%97%AE%E9%A1%B5%E9%9D%A2"><span class="nav-number">1.4.</span> <span class="nav-text">四、访问页面</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%85%B6%E4%BB%96%E9%85%8D%E7%BD%AE%E4%BF%A1%E6%81%AF"><span class="nav-number">2.</span> <span class="nav-text">其他配置信息</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E9%82%AE%E7%AE%B1%E4%BF%A1%E6%81%AF%E9%85%8D%E7%BD%AE"><span class="nav-number">2.1.</span> <span class="nav-text">一、邮箱信息配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C%E3%80%81%E7%AB%AF%E5%8F%A3%E4%BF%A1%E6%81%AF%E9%85%8D%E7%BD%AE"><span class="nav-number">2.2.</span> <span class="nav-text">二、端口信息配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%89%E3%80%81Python3%E6%B3%A8%E6%84%8F"><span class="nav-number">2.3.</span> <span class="nav-text">三、Python3注意</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%9B%E3%80%81%E6%9C%8D%E5%8A%A1%E5%90%AF%E5%81%9C"><span class="nav-number">2.4.</span> <span class="nav-text">四、服务启停</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E4%B8%80%E9%94%AE%E5%90%AF%E5%8A%A8%E6%89%80%E6%9C%89%E6%9C%8D%E5%8A%A1"><span class="nav-number">2.4.0.0.1.</span> <span class="nav-text">一键启动所有服务</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E4%B8%80%E9%94%AE%E5%8F%96%E6%B6%88%E6%89%80%E6%9C%89%E6%9C%8D%E5%8A%A1"><span class="nav-number">2.4.0.0.2.</span> <span class="nav-text">一键取消所有服务</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%94%E3%80%81%E6%97%A5%E5%BF%97"><span class="nav-number">2.5.</span> <span class="nav-text">五、日志</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BF%90%E8%A1%8C%E6%97%A5%E5%BF%97"><span class="nav-number">2.5.1.</span> <span class="nav-text">运行日志</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%85%B6%E4%BB%96%E6%9C%AA%E8%AF%A6%E8%BF%B0%E7%9A%84%E9%97%AE%E9%A2%98%E8%AF%B7%E6%9F%A5%E7%9C%8B"><span class="nav-number">3.</span> <span class="nav-text">其他未详述的问题请查看</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -188,7 +190,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2023-02-17 10:43:55 / 修改时间：10:47:31" itemprop="dateCreated datePublished" datetime="2023-02-17T10:43:55+08:00">2023-02-17</time>
+      <time title="创建时间：2023-02-17 10:43:55 / 修改时间：14:43:03" itemprop="dateCreated datePublished" datetime="2023-02-17T10:43:55+08:00">2023-02-17</time>
     </span>
 
   
@@ -202,29 +204,44 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <h1 id="DataX-Web部署教程"><a href="#DataX-Web部署教程" class="headerlink" title="DataX-Web部署教程"></a>DataX-Web部署教程</h1><ol>
-<li><h3 id="首先解压文件到安装目录"><a href="#首先解压文件到安装目录" class="headerlink" title="首先解压文件到安装目录"></a>首先解压文件到安装目录</h3><p><code>tar -zxvf datax-web-2.1.2.tar.gz -C 部署路径</code></p>
+        <h1 id="DataX-Web部署教程"><a href="#DataX-Web部署教程" class="headerlink" title="DataX-Web部署教程"></a>DataX-Web部署教程</h1><h2 id="一、首先解压文件到安装目录"><a href="#一、首先解压文件到安装目录" class="headerlink" title="一、首先解压文件到安装目录"></a>一、首先解压文件到安装目录</h2><ol>
+<li><p>使用Linux命令切换到”datax-web-2.1.2.tar.gz“所在路径</p>
 </li>
-<li><h3 id="执行安装命令"><a href="#执行安装命令" class="headerlink" title="执行安装命令"></a>执行安装命令</h3><p><code>./bin/install.sh --force</code></p>
+<li><p>执行命令：<code>tar -zxvf datax-web-2.1.2.tar.gz -C 部署路径</code></p>
 </li>
-<li><h3 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h3><ul>
-<li><h4 id="数据库初始化（两种情况）："><a href="#数据库初始化（两种情况）：" class="headerlink" title="数据库初始化（两种情况）："></a>数据库初始化（两种情况）：</h4><ol>
-<li>安装过程中识别到mysql命令会出现以下提醒：<br>设置密码：自己设置（如果是情况2，不生效）</li>
 </ol>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">Scan out mysql command, so begin to initalize the database</span><br><span class="line">Do you want to initalize database with sql: [&#123;INSTALL_PATH&#125;/bin/db/datax-web.sql]? (Y/N)y</span><br><span class="line">Please input the db host(default: 127.0.0.1): </span><br><span class="line">Please input the db port(default: 3306): </span><br><span class="line">Please input the db username(default: root): </span><br><span class="line">Please input the db password(default: ): </span><br><span class="line">Please input the db name(default: exchangis)</span><br></pre></td></tr></table></figure>
-
-<ol start="2">
-<li>未识别到mysql命令，需自行初始化SQL。脚本位置【&#x2F;bin&#x2F;db&#x2F;datax-web.sql】</li>
-</ol>
-<p> 编辑<code>vi ./modules/datax-admin/conf/bootstrap.properties</code>数据库配置，<strong>删除#，删除#，删除#</strong></p>
+<h2 id="二、执行安装命令"><a href="#二、执行安装命令" class="headerlink" title="二、执行安装命令"></a>二、执行安装命令</h2><p>解压完成后，执行命令：<code>./bin/install.sh --force</code></p>
+<h2 id="三、安装过程"><a href="#三、安装过程" class="headerlink" title="三、安装过程"></a>三、安装过程</h2><ul>
+<li><p>设置密码：自己设置（如果是情况2，不生效）</p>
 </li>
+<li><h4 id="数据库初始化（两种情况）："><a href="#数据库初始化（两种情况）：" class="headerlink" title="数据库初始化（两种情况）："></a>数据库初始化（两种情况）：</h4><ul>
+<li><strong>情况一：</strong>安装过程中识别到mysql命令会出现以下提醒：</li>
 </ul>
 </li>
-<li><p>访问页面：<a target="_blank" rel="noopener" href="http://ip:9527/index.html">http://ip:9527/index.html</a></p>
+</ul>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">Scan out mysql command, so begin to initalize the database</span><br><span class="line">Do you want to initalize database with sql: [&#123;INSTALL_PATH&#125;/bin/db/datax-web.sql]? (Y/N)y</span><br><span class="line">Please input the db host(default: 127.0.0.1): 输入数据库的地址（不输入默认为127.0.0.1）</span><br><span class="line">Please input the db port(default: 3306): 输入数据库端口（不输入默认为3306）</span><br><span class="line">Please input the db username(default: root): 输入数据库用户名（不输入默认为root）</span><br><span class="line">Please input the db password(default: ): 输入数据库密码(不输入默认为空)</span><br><span class="line">Please input the db name(default: exchangis)输入数据库名（不输入默认为：exchangis）</span><br></pre></td></tr></table></figure>
+<ul>
+<li><strong>情况二：</strong><ol>
+<li>未识别到mysql命令，需自行初始化SQL。脚本位置【&#x2F;bin&#x2F;db&#x2F;datax-web.sql】</li>
+<li>执行命令：<code>vi ./modules/datax-admin/conf/bootstrap.properties</code>，编辑数据库配置，<strong>删除#，删除#，删除#</strong></li>
+</ol>
+</li>
+</ul>
+<h2 id="四、访问页面"><a href="#四、访问页面" class="headerlink" title="四、访问页面"></a>四、访问页面</h2><p>地址：<a target="_blank" rel="noopener" href="http://ip:9527/index.html">http://ip:9527/index.html</a></p>
 <p>缺少默认重定向，不能缺省&#x2F;index.html</p>
 <p>默认账户名：admin；默认密码：123456</p>
-</li>
-</ol>
+<h1 id="其他配置信息"><a href="#其他配置信息" class="headerlink" title="其他配置信息"></a>其他配置信息</h1><h2 id="一、邮箱信息配置"><a href="#一、邮箱信息配置" class="headerlink" title="一、邮箱信息配置"></a>一、邮箱信息配置</h2><p><code>vi /modules/datax-admin/bin/env.properties</code></p>
+<p><img src="/2023/02/17/DataX-Web%E9%83%A8%E7%BD%B2%E6%95%99%E7%A8%8B/image-20230217143353399.png" alt="image-20230217143353399"></p>
+<h2 id="二、端口信息配置"><a href="#二、端口信息配置" class="headerlink" title="二、端口信息配置"></a>二、端口信息配置</h2><p><code>vi /modules/datax-admin/bin/env.properties</code></p>
+<p>默认端口为9527，自行根据情况修改</p>
+<p>SERVER_PORT&#x3D;9527</p>
+<h2 id="三、Python3注意"><a href="#三、Python3注意" class="headerlink" title="三、Python3注意"></a>三、Python3注意</h2><p><em><strong>如果用的是Python3的话需要将{YOUR_DATAX_HOME}&#x2F;bin目录下的三个py文件替换成{YOUR_DATAX_WEB_HOME}&#x2F;doc&#x2F;datax-web&#x2F;datax-python3目录下的三个文件</strong></em></p>
+<h2 id="四、服务启停"><a href="#四、服务启停" class="headerlink" title="四、服务启停"></a>四、服务启停</h2><h5 id="一键启动所有服务"><a href="#一键启动所有服务" class="headerlink" title="一键启动所有服务"></a>一键启动所有服务</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./bin/start-all.sh</span><br></pre></td></tr></table></figure>
+
+<h5 id="一键取消所有服务"><a href="#一键取消所有服务" class="headerlink" title="一键取消所有服务"></a>一键取消所有服务</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./bin/stop-all.sh</span><br></pre></td></tr></table></figure>
+
+<h2 id="五、日志"><a href="#五、日志" class="headerlink" title="五、日志"></a>五、日志</h2><h3 id="运行日志"><a href="#运行日志" class="headerlink" title="运行日志"></a>运行日志</h3><p>部署完成之后，在modules&#x2F;对应的项目&#x2F;data&#x2F;applogs下(用户也可以自己指定日志，修改application.yml 中的logpath地址即可)，用户可以根据此日志跟踪项目实际启动情况</p>
+<h1 id="其他未详述的问题请查看"><a href="#其他未详述的问题请查看" class="headerlink" title="其他未详述的问题请查看"></a>其他未详述的问题请查看</h1><p><a target="_blank" rel="noopener" href="https://github.com/WeiYe-Jing/datax-web/blob/master/doc/datax-web/datax-web-deploy.md">datax-web部署文档 (github.com)</a></p>
 
     </div>
 
