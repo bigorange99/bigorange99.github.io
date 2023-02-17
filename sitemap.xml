@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.660066.xyz/2023/02/17/Logback%E6%A0%B9%E6%8D%AEMarker%E6%98%AF%E5%90%A6%E6%8F%92%E5%85%A5%E8%87%AA%E5%AE%9A%E4%B9%89%E6%95%B0%E6%8D%AE%E5%BA%93%E6%97%A5%E5%BF%97%E4%BF%A1%E6%81%AF/</loc>
+    
+    <lastmod>2023-02-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.660066.xyz/categories/index.html</loc>
     
     <lastmod>2023-02-17</lastmod>
@@ -66,6 +75,13 @@
   
   <url>
     <loc>https://blog.660066.xyz/tags/DataX-Web/</loc>
+    <lastmod>2023-02-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.660066.xyz/tags/Logback/</loc>
     <lastmod>2023-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
