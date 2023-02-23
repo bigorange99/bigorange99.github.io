@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.660066.xyz/2023/02/23/Oracle%E6%95%B0%E6%8D%AE%E6%B3%B5expdp%E5%92%8Cimpdp/</loc>
+    
+    <lastmod>2023-02-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.660066.xyz/2023/02/20/%E9%9A%8F%E6%89%8B%E8%AE%B020230220/</loc>
     
     <lastmod>2023-02-20</lastmod>
@@ -76,7 +85,7 @@
 
   <url>
     <loc>https://blog.660066.xyz/</loc>
-    <lastmod>2023-02-20</lastmod>
+    <lastmod>2023-02-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -84,21 +93,35 @@
   
   <url>
     <loc>https://blog.660066.xyz/tags/Logback/</loc>
-    <lastmod>2023-02-20</lastmod>
+    <lastmod>2023-02-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.660066.xyz/tags/DataX-Web/</loc>
-    <lastmod>2023-02-20</lastmod>
+    <lastmod>2023-02-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.660066.xyz/tags/%E9%9A%8F%E6%89%8B%E8%AE%B0/</loc>
-    <lastmod>2023-02-20</lastmod>
+    <lastmod>2023-02-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.660066.xyz/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
+    <lastmod>2023-02-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.660066.xyz/tags/Oracle/</loc>
+    <lastmod>2023-02-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
